@@ -1,2 +1,21 @@
 
+.container-fluid {
+      display:flex;
+      width: 100%;
+    }
+.row {
+      justify-content: center;
+      text-align: center;
+    }
+
+img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+.col-sm-1, .col-sm-2, .col-sm-4, .col-sm-12 {
+      display: flex;
+      padding: 2px;
+    }
+
 /* Your CSS Code here. */
